@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Mar 31 20:06:07 2016
+# Process ID: 24456
+# Log file: F:/COLAB/EELABS/mylab/auto_seller/planAhead_run_2/planAhead.log
+# Journal file: F:/COLAB/EELABS/mylab/auto_seller/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/COLAB/EELABS/mylab/auto_seller/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+refresh_design
+startgroup
+set_property package_pin G12 [get_ports coin_half]
+endgroup
+set_property is_loc_fixed false [get_ports [list  coin_half]]
+set_property is_loc_fixed true [get_ports [list  coin_half]]
+save_constraints

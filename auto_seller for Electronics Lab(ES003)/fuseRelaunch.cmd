@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "F:/COLAB/EELABS/mylab/auto_seller__ f/tset_isim_beh.exe" -prj "F:/COLAB/EELABS/mylab/auto_seller__ f/tset_beh.prj" "work.tset" "work.glbl" 

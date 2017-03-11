@@ -1,0 +1,41 @@
+
+NET "an[0]" LOC = F12;
+NET "an[1]" LOC = J12;
+NET "an[2]" LOC = M13;
+NET "an[3]" LOC = K14;
+
+# PlanAhead Generated physical constraints 
+
+NET "a_to_g[0]" LOC = M12;
+NET "a_to_g[1]" LOC = L13;
+NET "a_to_g[2]" LOC = P12;
+NET "a_to_g[3]" LOC = N11;
+NET "a_to_g[4]" LOC = N14;
+NET "a_to_g[5]" LOC = H12;
+NET "a_to_g[6]" LOC = L14;
+NET "DP" LOC = N13;
+
+NET "cola_out" LOC = G1;
+NET "tea_out" LOC = P4;
+NET "milk_out" LOC = N4;
+
+NET "full_stock" LOC = G3;
+NET "coin_return" LOC = B4;
+
+NET "account" LOC = A7;
+NET "account" CLOCK_DEDICATED_ROUTE = FALSE; 
+NET "clk" LOC = B8;
+NET "coin_half" LOC = P11;
+NET "coin_half" CLOCK_DEDICATED_ROUTE = FALSE;  
+NET "coin_one" LOC = L3;
+NET "coin_one" CLOCK_DEDICATED_ROUTE = FALSE;  
+NET "sell_cola" LOC = N3;
+NET "sell_cola" CLOCK_DEDICATED_ROUTE = FALSE;  
+NET "sell_tea" LOC = E2;
+NET "sell_tea" CLOCK_DEDICATED_ROUTE = FALSE;  
+NET "sell_milk" LOC = F3;
+NET "sell_milk" CLOCK_DEDICATED_ROUTE = FALSE;  
+
+//NET "coin_one" LOC = C11;
+//NET "coin_mode" LOC = P11;
+

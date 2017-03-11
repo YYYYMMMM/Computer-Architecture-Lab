@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Mar 31 11:02:05 2016
+# Process ID: 4960
+# Log file: F:/COLAB/EELABS/mylab/auto_seller/planAhead_run_1/planAhead.log
+# Journal file: F:/COLAB/EELABS/mylab/auto_seller/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/COLAB/EELABS/mylab/auto_seller/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin L14 [get_ports {a_to_g[6]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {a_to_g[5]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {a_to_g[4]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {a_to_g[3]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {a_to_g[2]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {a_to_g[1]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {a_to_g[0]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {an[3]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {an[2]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {an[1]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {an[0]}]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  coin_half]]
+startgroup
+set_property package_pin M13 [get_ports {an[1]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {an[0]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports coin_half]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports coin_mode]
+endgroup
+save_constraints
+startgroup
+set_property package_pin C11 [get_ports coin_one_cola]
+endgroup
+set_property is_loc_fixed false [get_ports [list  coin_one_cola]]
+set_property is_loc_fixed true [get_ports [list  coin_one_cola]]
+save_constraints
+update_compile_order -fileset sim_1

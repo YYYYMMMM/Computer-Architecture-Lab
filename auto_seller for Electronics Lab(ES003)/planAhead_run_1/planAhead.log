@@ -1,0 +1,117 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Mar 31 11:02:05 2016
+# Process ID: 4960
+# Log file: F:/COLAB/EELABS/mylab/auto_seller/planAhead_run_1/planAhead.log
+# Journal file: F:/COLAB/EELABS/mylab/auto_seller/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -762 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source F:/COLAB/EELABS/mylab/auto_seller/pa.fromHdl.tcl
+# create_project -name auto_seller -dir "F:/COLAB/EELABS/mylab/auto_seller/planAhead_run_1" -part xc3s100ecp132-5
+create_project: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 441.371 ; gain = 54.965
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "top_module.ucf" [current_fileset -constrset]
+Adding file 'F:/COLAB/EELABS/mylab/auto_seller/top_module.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {top_module.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top top_module $srcset
+# add_files [list {top_module.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s100ecp132-5
+Using Verific elaboration
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "F:/COLAB/EELABS/mylab/auto_seller/top_module.v" into library work
+INFO: [Designutils 20-910] Reading macro library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+Parsing UCF File [F:/COLAB/EELABS/mylab/auto_seller/top_module.ucf]
+Finished Parsing UCF File [F:/COLAB/EELABS/mylab/auto_seller/top_module.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: f7a7d48c
+open_rtl_design: Time (s): elapsed = 00:00:24 . Memory (MB): peak = 579.230 ; gain = 136.391
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin L14 [get_ports {a_to_g[6]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {a_to_g[5]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {a_to_g[4]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {a_to_g[3]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {a_to_g[2]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {a_to_g[1]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {a_to_g[0]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {an[3]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {an[2]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {an[1]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {an[0]}]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  coin_half]]
+startgroup
+set_property package_pin M13 [get_ports {an[1]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {an[0]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports coin_half]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports coin_mode]
+endgroup
+save_constraints
+startgroup
+set_property package_pin C11 [get_ports coin_one_cola]
+endgroup
+set_property is_loc_fixed false [get_ports [list  coin_one_cola]]
+set_property is_loc_fixed true [get_ports [list  coin_one_cola]]
+save_constraints
+update_compile_order -fileset sim_1
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See F:/COLAB/EELABS/mylab/auto_seller\planAhead_pid4960.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Mar 31 11:20:59 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead
