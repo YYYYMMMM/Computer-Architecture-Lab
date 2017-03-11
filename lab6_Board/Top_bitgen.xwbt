@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\COLAB\computer_org\lab6_Board\Top.ncd
+OUTFILE=F:\COLAB\computer_org\lab6_Board\Top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=F:\COLAB\computer_org\lab6_Board
+LICENSE=WebPack
+USER_INFO=210724894_0_0_572

@@ -1,0 +1,5 @@
+set -tmpdir "F:/COLAB/computer_org/lab4/xst/projnav.tmp"
+set -xsthdpdir "F:/COLAB/computer_org/lab4/xst"
+elaborate
+-ifn register.prj
+-ifmt mixed

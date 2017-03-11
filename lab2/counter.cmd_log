@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "F:/COLAB/computer_org/lab2/counter.xst" -ofn "F:/COLAB/computer_org/lab2/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I counter.ngc counter.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xa7a100t-csg324-2I counter.ngc counter.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xa7a100t-csg324-2I counter.ngc counter.ngd  
+xst -intstyle ise -ifn "F:/COLAB/computer_org/lab2/counter.xst" -ofn "F:/COLAB/computer_org/lab2/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xa7a100t-csg324-2I counter.ngc counter.ngd  
+xst -intstyle ise -ifn "F:/COLAB/computer_org/lab2/counter.xst" -ofn "F:/COLAB/computer_org/lab2/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xa7a100t-csg324-2I counter.ngc counter.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xa7a100t-csg324-2I counter.ngc counter.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xa7a100t-csg324-2I counter.ngc counter.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o counter_map.ncd counter.ngd counter.pcf 
+xst -intstyle ise -ifn "F:/COLAB/computer_org/lab2/counter.xst" -ofn "F:/COLAB/computer_org/lab2/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter.ucf -p xc3s500e-fg320-4 counter.ngc counter.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -t 1 counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf -ucf counter.ucf 
+bitgen -intstyle ise -f counter.ut counter.ncd 

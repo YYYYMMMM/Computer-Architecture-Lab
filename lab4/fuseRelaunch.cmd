@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "F:/COLAB/computer_org/lab4/test_for_mem_isim_beh.exe" -prj "F:/COLAB/computer_org/lab4/test_for_mem_beh.prj" "work.test_for_mem" "work.glbl" 

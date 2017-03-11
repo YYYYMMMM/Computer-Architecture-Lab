@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="27" delta="new" ><arg fmt="%s" index="1">&quot;Ctr.v&quot; line 34 </arg>Illegal redeclaration of &apos;<arg fmt="%s" index="2">regDst</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="27" delta="new" ><arg fmt="%s" index="1">&quot;Ctr.v&quot; line 35 </arg>Illegal redeclaration of &apos;<arg fmt="%s" index="2">aluSrc</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="27" delta="new" ><arg fmt="%s" index="1">&quot;Ctr.v&quot; line 36 </arg>Illegal redeclaration of &apos;<arg fmt="%s" index="2">memToReg</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="27" delta="new" ><arg fmt="%s" index="1">&quot;Ctr.v&quot; line 37 </arg>Illegal redeclaration of &apos;<arg fmt="%s" index="2">regWrite</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="27" delta="new" ><arg fmt="%s" index="1">&quot;Ctr.v&quot; line 38 </arg>Illegal redeclaration of &apos;<arg fmt="%s" index="2">memRead</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="27" delta="new" ><arg fmt="%s" index="1">&quot;Ctr.v&quot; line 39 </arg>Illegal redeclaration of &apos;<arg fmt="%s" index="2">memWrite</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="27" delta="new" ><arg fmt="%s" index="1">&quot;Ctr.v&quot; line 40 </arg>Illegal redeclaration of &apos;<arg fmt="%s" index="2">branch</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="27" delta="new" ><arg fmt="%s" index="1">&quot;Ctr.v&quot; line 41 </arg>Illegal redeclaration of &apos;<arg fmt="%s" index="2">aluOp</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="27" delta="new" ><arg fmt="%s" index="1">&quot;Ctr.v&quot; line 42 </arg>Illegal redeclaration of &apos;<arg fmt="%s" index="2">jump</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="26" delta="new" >&quot;<arg fmt="%s" index="1">Top.v</arg>&quot; line <arg fmt="%d" index="2">123</arg> <arg fmt="%s" index="3">expecting &apos;;&apos;, found &apos;endmodule&apos;</arg>
+</msg>
+
+<msg type="error" file="HDLCompilers" num="26" delta="new" >&quot;<arg fmt="%s" index="1">Top.v</arg>&quot; line <arg fmt="%d" index="2">124</arg> <arg fmt="%s" index="3">expecting &apos;endmodule&apos;, found &apos;EOF&apos;</arg>
+</msg>
+
+</messages>
+

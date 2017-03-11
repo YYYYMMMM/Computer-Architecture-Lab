@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/COLAB/computer_org/lab5/Top.xst" -ofn "F:/COLAB/computer_org/lab5/Top.syr" 

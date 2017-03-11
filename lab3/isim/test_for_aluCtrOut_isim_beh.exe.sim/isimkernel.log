@@ -1,0 +1,29 @@
+Command line:
+   test_for_aluCtrOut_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  8319
+
+Sat May 14 18:43:43 2016
+
+
+ Elaboration Time: 0.1875 sec
+
+ Current Memory Usage: 843.006 Meg
+
+ Total Signals          : 16
+ Total Nets             : 25
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 117
+Total Line Count : 41
+
+ Total Simulation Time: 0.390625 sec
+
+ Current Memory Usage: 685.72 Meg
+
+Sat May 14 18:58:25 2016
+
